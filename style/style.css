@@ -224,6 +224,20 @@ footer{
 .footer-cointainer{
     color: white;
 }
+
+
+.footer {
+  background-color: #1e293b; /* ডার্ক কালার */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.highlight {
+  color: #3b82f6; /* আপনার ফেভারিট ব্লু কালার */
+  font-weight: bold;
+}
 @media screen and (max-width:576px) {
     header{
     margin: 20px auto;
@@ -248,7 +262,7 @@ footer{
     padding: 20px;
 }
 .sponsor{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     padding: 20px;
 }
